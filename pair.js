@@ -54,11 +54,11 @@ router.get('/', async (req, res) => {
                 let data = fs.readFileSync(__dirname + `/temp/${id}/creds.json`);
                 await delay(800);
                let b64data = Buffer.from(data).toString('base64');
-               let session = await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id, { text: '' + b64data });
+               let session = await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id, { text: 'VELDRA-MD;;;' + b64data });
 
                let GIFTED_MD_TEXT = ` ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬             
 ┏━━━━━━━━━━━━━━⍟
-┃𖣔RAPHAEL-MD SUCCESSFULLY 
+┃𖣔VELDRA-MD SUCCESSFULLY 
 ┃𖣔CONNECTED ✅🔥
 ┗━━━━━━━━━━━━━━━━━━⍟
 ┏━━━━━━━━━━━━━━━━━━━⍟
