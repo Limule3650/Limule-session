@@ -59,20 +59,20 @@ router.get('/', async (req, res) => {
 				   let session = await Qr_Code_By_Wasi_Tech.sendMessage(Qr_Code_By_Wasi_Tech.user.id, { text: '' + b64data });
 	
 				   let WASI_MD_TEXT = `┏━━━━━━━━━━━━━━⍟
-┃SASAKI-MD-V2 SUCCESSFULLY 
+┃𝐕𝐄𝐋𝐃𝐑𝐀-𝐌𝐃 SUCCESSFULLY 
 ┃CONNECTED ✅
 ┗━━━━━━━━━━━━━━━━━━⍟
 ┏━━━━━━━━━━━━━━━━━━━⍟
-┃❥︎Creator ➪TEAM SASAKI 
+┃❥︎Creator ➪𝐋𝐈𝐌𝐔𝐋𝐄 𝐒𝐎𝐋𝐈𝐓𝐀𝐑𝐔𝐒
 ┗━━━━━━━━━━━━━━━━━━━━⍟
 ┏━━━━━━━━━━━━━━━━━━━⍟
-┃❥︎WhattsApp Channel ➪https://whatsapp.com/channel/0029VaahaCWDzgTKeG9S7u1W
+┃❥︎WhattsApp Channel ➪https://whatsapp.com/channel/0029Vafhjw0IXnlonRAQMM2l
 ┗━━━━━━━━━━━━━━━━━━━━⍟
 ┏━━━━━━━━━━━━━━━━━━━━⍟
 ┃❥︎Please Follow My Support Channel
-┃❥︎Wanna talk to me?➪https://wa.me/242067274660 
+┃❥︎Wanna talk to me?➪https://wa.me/237698581946 
 ┗━━━━━━━━━━━━━━━━━━━━━━━⍟
- ©*2024* TEAM-SASAKI
+ © *2025* 𝐋𝐈𝐌𝐔𝐋𝐄 𝐒𝐎𝐋𝐈𝐓𝐀𝐑𝐔𝐒
 ____________________________________
 	
 _Don't Forget To Give Star To My Repo_`
