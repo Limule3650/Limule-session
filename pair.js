@@ -56,23 +56,21 @@ router.get('/', async (req, res) => {
                let b64data = Buffer.from(data).toString('base64');
                let session = await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id, { text: '' + b64data });
 
-               let GIFTED_MD_TEXT = ` ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬             
-┏━━━━━━━━━━━━━━⍟
-┃𖣔VELDRA-MD SUCCESSFULLY 
-┃𖣔CONNECTED ✅🔥
+               let GIFTED_MD_TEXT = `┏━━━━━━━━━━━━━━⍟
+┃SASAKI-MD-V2 SUCCESSFULLY 
+┃CONNECTED ✅🔥
 ┗━━━━━━━━━━━━━━━━━━⍟
 ┏━━━━━━━━━━━━━━━━━━━⍟
-┃❥︎Creator ➪LIMULE SOLITARUS 
+┃❥︎Creator ➪ TEAM SASAKI 
 ┗━━━━━━━━━━━━━━━━━━━━⍟
 ┏━━━━━━━━━━━━━━━━━━━⍟
-┃❥︎WhattsApp Channel ➪https://whatsapp.com/channel/0029Vafhjw0IXnlonRAQMM2l
+┃❥︎WhattsApp Channel ➪https://whatsapp.com/channel/0029VaahaCWDzgTKeG9S7u1W
 ┗━━━━━━━━━━━━━━━━━━━━⍟
 ┏━━━━━━━━━━━━━━━━━━━━⍟
 ┃❥︎Please Follow My Support Channel
-┃❥︎Wanna talk to me?➪https://wa.me/237698581946 
+┃❥︎Wanna talk to me?➪https://wa.me/242067274660
 ┗━━━━━━━━━━━━━━━━━━━━━━━⍟
- ©*2025* 𝙻𝙸𝙼𝚄𝙻𝙴 𝚂𝙾𝙻𝙸𝚃𝙰𝚁𝚄𝚂
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+ ©*2024* TEAM SASAKI
 _Don't Forget To Give Star To My Repo_`
  await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id,{text:GIFTED_MD_TEXT},{quoted:session})
  
